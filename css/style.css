@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    margin-top: 35px;
+    margin-left: 50px;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.logoo {
+    margin-top: 5%;
+    background-color: rgb(71, 145, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0; /* Пример отступов для текста и фона */
+
+}
+
+.main {
+    display: inline-block; /* Расположение слов в ряд */
+    margin: 0 25px; /* Отступы между словами (по желанию) */
+}
+
+.main-btn   { 
+    margin-top: -25px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 50%;
+}
+
+.screensaver {
+    color: white;
+    font-size: 54px;
+    text-align: center;
+}
+
+.Read-More:hover {
+    background-color: #4891ff;
+}
+.Read-More {
+    border: 3px solid black;
+    margin-top: 45px;
+    background-color: rgb(255, 57, 57);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 45%;
+    text-align: center;
+    height: 50px;
+    width: 140px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.two-name {
+    margin-top: 4%;
+    font-size: 48px;
+    text-align: center;
+}
+
+.image {
+    text-align: center;
+    margin-top: -0.5%;
+}
+
+.swiper {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    margin-left: 15%;
+    font-size: 24px;
+    width: clamp(20ch, 70%, 85ch);
+}
+
+.text2 {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo1 {
+    text-align: center;
+    margin-top: 45px;
+
+}
+
+.name {
+    font-size: 24px;
+}
+.name1 {
+    font-size: 24px;
+}
+.name2 {
+    font-size: 24px;
+}
+.name3 {
+    font-size: 24px;
+}
+.name4 {
+    font-size: 24px;
+}
+.name5 {
+    font-size: 24px;
+}
+
+.end {
+    text-align: center;
+    margin-top: 45px;
+    background-color: rgb(71, 145, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0; /* Пример отступов для текста и фона */
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+
+.input {
+    border: 2px solid rgb(0, 0, 0); /* Обводка с цветом */
+    border-radius: 15px; /* Радиус закругления углов */
+    padding: 10px; /* Внутренний отступ (по желанию) */
+    margin-left: 30%;
+    display: block;
+    margin-top: 50px;
+    width: 500px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.Submit {
+
+    border: 3px solid black;
+    margin-top: 2.5%;
+    background-color: rgb(255, 57, 57);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    height: 50px;
+    width: 140px;
+    border: 3px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.Submit:hover {
+    background-color: rgb(56, 136, 255);
+}
+
+
+footer {
+    background-color: rgb(71, 145, 255);
+    color: #fff;
+    text-align: left;
+    padding: 10px 0;
+}
